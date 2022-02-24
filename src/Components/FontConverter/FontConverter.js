@@ -17,7 +17,7 @@ function FontConverter() {
     const [color, setColor] = useState('blue')
     const [letterSpacing, setLetterSpacing] = useState(1)
     const [wordSpacing, setWordSpacing] = useState(1)
-    const [lineHeight, setLineHeight] = useState(30)
+    const [lineHeight, setLineHeight] = useState(27)
     const [fontWeight, setFontWeight] = useState(300)
     const [line, setLine] = useState(false)
     const [shadow, setShadow] = useState(false)
@@ -61,7 +61,6 @@ function FontConverter() {
             link.click();
         });
    }
-
     return (
         <div className="fontConverter">
             <div className="fontStyler">
@@ -235,7 +234,7 @@ function FontConverter() {
                         
 
                         <div className="gridThree">
-                            <div className="lineHeight" style={{marginBottom: "1.5rem"}}>
+                            <div id="lineheight" className="lineHeight" style={{marginBottom: "1.5rem"}}>
                                 <InputLabel className="inputLabel" id="lineHeight">Line Height</InputLabel>
                                 <Slider style={{width: 150}}
                                     defaultValue={27}
@@ -291,15 +290,15 @@ function FontConverter() {
                 </div>
                 <div className="output_container">
                     <Paper elevation={3} square={true} className="paper" id="page" style={{backgroundImage: 
-                            line? 'repeating-linear-gradient(transparent 0px, transparent 24px, #333333 25px)' : 'none', 
+                            line? 'repeating-linear-gradient(transparent 0px, transparent 23px, #333333 26px)' : 'none', 
                             WebkitBoxShadow: shadow ? 'inset 18px 0px 50px -7px rgba(106,110,101,1)' : 'none', MozBoxShadow: shadow ? 'inset 18px 0px 50px -7px rgba(106,110,101,1)' : 'none',
                             boxShadow: shadow ? 'inset 18px 0px 50px -7px rgba(106,110,101,1)' : 'none'}}>
-                        <p className="output_text" 
+                        <textArea className="output_text" 
                             style={{fontFamily: `${fontFamily}`, fontSize: `${fontSize}px`, color: `${color}`, 
-                                letterSpacing: `${letterSpacing}px`, wordSpacing: `${wordSpacing}px`, lineHeight: `${lineHeight}px`, paddingTop: marginTop? '2rem' : '0',
+                                letterSpacing: `${letterSpacing}px`, wordSpacing: `${wordSpacing}px`, lineHeight: `${lineHeight}px`, paddingTop: marginTop? '2.5rem' : '10px',
                                 fontWeight: `${fontWeight}`, left: margin? '2rem' : '0', borderLeft: margin? '2px solid #666666' : 'none', paddingLeft: margin? '0.5rem' : '0'}}>
                             {text}
-                        </p>
+                        </textArea>
                     </Paper>
                     <div className="download_button">
                         <Button onClick={generateJpeg} variant="contained" style={{color: 'white', backgroundColor: '#ec4c4c'}}>Download Image </Button>
