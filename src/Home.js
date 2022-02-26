@@ -14,7 +14,7 @@ export default function Home() {
           </a>
           <a
             className="Icon"
-            href="https://github.com/hhhrrrttt222111/"
+            href="https://github.com/Rozen2007/"
             target="_blank"
             rel="noopener noreferrer"
           >
