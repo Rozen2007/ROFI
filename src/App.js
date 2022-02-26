@@ -16,17 +16,6 @@ export default function App() {
     )
 }
 
-// export default function App() {
-//   return (
-//     <Router>
-//       <div>
-//         <Routes>
-//           <Route path="/" element={<Home />} />
-//           <Route path="/app" element={<Main />} />
-//         </Routes>
-//       </div>
-//     </Router>
-//   )
-// }
+
 
 
