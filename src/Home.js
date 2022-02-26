@@ -1,10 +1,7 @@
 import React from "react";
 import "./Home.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
-
-
-
-
+import { Outlet, Link } from "react-router-dom";
 
 export default function Home() {
 
@@ -33,12 +30,12 @@ export default function Home() {
           </h1>
           <p className="description">
             Hate writing assigments? This tool will help you convert your text
-            to handwriting <span>😜</span>
+            to handwriting 😜
           </p>
           <div className="button_section">
-            <a href="/app">
-              <div className="button_container"> Try now</div>
-            </a>
+              <a>
+                <Link to="main" style={{ textDecoration: 'none' }} className="button_container"> Try now</Link>
+              </a>
           </div>
        
           
