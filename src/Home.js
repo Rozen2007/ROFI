@@ -6,7 +6,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 
 
 
-function Home() {
+export default function Home() {
 
   return (
     <div className="Home">
@@ -33,11 +33,11 @@ function Home() {
           </h1>
           <p className="description">
             Hate writing assigments? This tool will help you convert your text
-            to handwriting 😜
+            to handwriting <span>😜</span>
           </p>
           <div className="button_section">
-            <a>
-              <div className="button_container"> try now</div>
+            <a href="/app">
+              <div className="button_container"> Try now</div>
             </a>
           </div>
        
@@ -48,4 +48,3 @@ function Home() {
   );
 }
 
-export default Home;

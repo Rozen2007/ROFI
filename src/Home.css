@@ -219,5 +219,6 @@ header {
     justify-content: flex-start;
     overflow: hidden;
     text-align: center;
+    cursor: pointer;
 }
 

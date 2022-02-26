@@ -1,3 +1,7 @@
+.Main{
+ padding-bottom: 2rem;
+}
+
 .section{
     position: relative;
     display:flex;

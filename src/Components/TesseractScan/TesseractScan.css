@@ -51,7 +51,9 @@
 }
 
 .scanText {
-    padding: 6rem;
+    padding: 1rem;
+    color: #262626;
+    overflow: hidden;
 }
 
 .scanContainer {
@@ -59,7 +61,7 @@
     padding-bottom: 7rem;
     display: flex;
     align-items: center;
-    background-color: #fbd0d0;
+    background-color: #001220;
 }
 
 
@@ -138,11 +140,13 @@ input[type="file"] {
 }
 
 .textPaper > .MuiIconButton-root {
+    
     position: relative;
     float: right;
-    padding-left: 2rem;
-    padding-bottom: 1rem;
+    padding-left: 0.8rem;
+    padding-bottom: 0.8rem;
     color: black;
+    background-color:black;
 }
 
 .textPaper {

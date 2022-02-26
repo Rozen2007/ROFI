@@ -129,6 +129,7 @@ function TesseractScan() {
                 <div className="image_left">
 
                   <img src={upload} alt="" style={{display: text ? 'block': 'none', width: '300px'}}/>
+                  <img src={image} alt="" /> 
 
                     <label htmlFor="fileUpload" className="custom-file-upload">
                         <input id="fileUpload" type="file" onChange={imageUpload} accept="image/*" name="image" 
@@ -136,16 +137,7 @@ function TesseractScan() {
                         Upload Image
                     </label>
                     
-                    <img src={image} alt="" />
-
-                    <div className="uploadText" style={{display: text ? 'block': 'none'}}>
-                        <h3 className="helpText"><RiQuillPenLine/> Upload image that contain any text</h3>
-                        <h3 className="helpText"><RiQuillPenLine/> Click the SCAN Button to extract the text</h3>
-                        <h3 className="helpText"><RiQuillPenLine/> This might take a while depending on the amount of text</h3>
-                        <h3 className="helpText"><RiQuillPenLine/> Click the copy icon <FileCopyIcon /> to copy the text to clipboard</h3>
-                    </div>
-                    
-                    
+             
                 </div>
 
               <div className="buttonContainer">
@@ -157,11 +149,11 @@ function TesseractScan() {
                 <Paper elevation={3} className="textPaper">
                     <CopyToClipboard text={scanText}
                         onCopy={() => setCopied(true)}>
-                            <IconButton aria-label="delete"  onClick={handleCopyClick}>
-                                <FileCopyIcon fontSize="large"/>
+                            <IconButton aria-label="delete" className="Icon_copy"  onClick={handleCopyClick}>
+                                <FileCopyIcon fontSize="small"/>
                             </IconButton>
                     </CopyToClipboard>
-                    <p>{scanText}</p>
+                    <p className="scanText">{scanText}</p>
                 </Paper>
                     
                 </div>
