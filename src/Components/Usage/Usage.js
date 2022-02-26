@@ -10,7 +10,6 @@ import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
-import { HiPencil } from "react-icons/hi";
 
 import './Usage.css'
 
@@ -45,7 +44,7 @@ const DialogTitle = withStyles(styles)((props) => {
 const DialogContent = withStyles((theme) => ({
   root: {
     padding: theme.spacing(2),
-    backgroundColor: '#ff6666'
+    backgroundColor: '#001220'
   },
 }))(MuiDialogContent);
 
@@ -53,7 +52,7 @@ const DialogActions = withStyles((theme) => ({
   root: {
     margin: 0,
     padding: theme.spacing(1),
-    backgroundColor: '#ff4d4d'
+    backgroundColor: '#001220'
   },
 }))(MuiDialogActions);
 
@@ -79,20 +78,21 @@ function Usage() {
         </DialogTitle>
         <DialogContent dividers>
           <Typography gutterBottom className="text">
-            <HiPencil /> Choose from 34 fonts that looks handwritten <br />
-            <HiPencil /> Adjust font size to choose number of words in a line <br />
-            <HiPencil /> Adjust font weight to change boldness of the text <br />
-            <HiPencil /> Letter spacing and word spacing helps arrange words more closely<br />
-            <HiPencil /> Change font color and paper page color to get paper like appearance<br />
-            <HiPencil /> Adjusting line height is important when page lines are enabled<br />
-            <HiPencil /> Page lines provide lines in the paper<br />
-            <HiPencil /> Scan effect provides a shadow to the page<br />
-            <HiPencil /> Page margin gives a margin to the page <br />
-            
+            <p>
+             Choose from 34 fonts that looks handwritten. 
+             Adjust font size to choose number of words in a line .
+             Adjust font weight to change boldness of the text .
+             Letter spacing and word spacing helps arrange words more closely.
+             Change font color and paper page color to get paper like appearance.
+             Adjusting line height is important when page lines are enabled.
+             Page lines provide lines in the paper.
+             Scan effect provides a shadow to the page.
+             Page margin gives a margin to the page .
+             </p>
           </Typography>
         </DialogContent>
         <DialogActions>
-          <Button className="button" autoFocus href="https://github.com/hhhrrrttt222111/" color="primary" 
+          <Button className="button" autoFocus href="https://github.com/Rozen2007/" color="primary" 
             target="_blank" rel="noopener noreferrer"
             variant="contained" startIcon={<GitHubIcon />}>
             Visit Repo

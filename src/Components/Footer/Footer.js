@@ -14,7 +14,7 @@ function Footer() {
                 <p>
                     <b>Rofi</b> is a project made with React JS 
                     For any suggestions or bug reports, visit 
-                    <a href='https://github.com/hhhrrrttt222111/' target="_blank" rel="noopener noreferrer">
+                    <a href='https://github.com/Rozen2007/' target="_blank" rel="noopener noreferrer">
                         <Tooltip title="Visit Github Repo" placement="bottom" TransitionComponent={Zoom}>
                             <GitHubIcon />
                         </Tooltip> 
@@ -29,9 +29,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className="footer_hrt">
-                <h3>Made with <span role="img" aria-label="necro">🖤</span> by <a href='https://github.com/hhhrrrttt222111' target="_blank" rel="noopener noreferrer">Rozen</a></h3>
-            </div>
+           
             
 
         </div>

@@ -19,7 +19,7 @@
   justify-content: center;
   height: 95%;
   border-radius: 0.375rem;
-  background: rgba(102, 102, 102, 0.5);
+  background: rgba(102, 102, 102, 0.164);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   box-shadow: 0 32px 64px 0 rgb(17 17 17 / 8%);
@@ -88,7 +88,7 @@ header {
 
 @media (max-width: 640px) { 
     .Container{
-        padding-left: 1rem;   
+        padding: 0rem;   
     }
 }
 
@@ -100,8 +100,8 @@ header {
   line-height: 2rem;
   font-size: 1.5rem;
   line-height: 2rem;
-
   margin: 0;
+  color: rgb(206, 206, 206);
 }
 
 @media (min-width: 1280px) {

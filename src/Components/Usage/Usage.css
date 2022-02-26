@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kotta+One&family=Lora:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Lora:ital,wght@1,600&display=swap');
 
 
 .usage {
@@ -8,12 +8,12 @@
 
 .text {
     font-size: 1.25rem !important;
-    font-family: 'Lora', serif !important;
+    /* font-family: 'Lora', serif !important; */
 }
 
 h4 {
     font-size: 30px;
-    font-family: 'Kotta One', serif;
+    font-family: 'Roboto', serif;
 }
 
 .button {
