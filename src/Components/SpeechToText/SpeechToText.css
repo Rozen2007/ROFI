@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Roboto+Serif:wght@700&display=swap');
+
 .speechToText {
     margin-top: 4rem;
     margin-bottom: 5rem;
@@ -37,10 +39,9 @@
 
 .textRight2 > p {
     padding: 3rem;
-    font-size: 28px;
-    font-family: 'Caveat', cursive;
+    font-size: 23px;
     font-weight: 500;
-    
+    font-family: 'Nunito', sans-serif;   
 }
 
 .recorder {

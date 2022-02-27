@@ -11,7 +11,7 @@ import Usage from '../Usage/Usage';
 
 function FontConverter() {
 
-    const [text, setText] = useState("A hero can be anyone. Even a man doing something as simple and reassuring as putting a coat around a young boy's shoulders to let him know that the world hadn't ended. This is a sample text. Enter your text here to convert to handwritten font.")
+    const [text, setText] = useState("This is a sample text. Enter your text here to convert to handwritten font.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
     const [fontFamily, setFontFamily] = useState("'Bad Script', cursive")
     const [fontSize, setFontSize] = useState(17)
     const [color, setColor] = useState('blue')
@@ -19,9 +19,9 @@ function FontConverter() {
     const [wordSpacing, setWordSpacing] = useState(1)
     const [lineHeight, setLineHeight] = useState(27)
     const [fontWeight, setFontWeight] = useState(300)
-    const [line, setLine] = useState(false)
-    const [shadow, setShadow] = useState(false)
-    const [margin, setMargin] = useState(false)
+    const [line, setLine] = useState(true)
+    const [shadow, setShadow] = useState(true)
+    const [margin, setMargin] = useState(true)
     const [marginTop, setMarginTop] = useState(false)
 
     const [showColorPicker1, setShowColorPicker1] = useState(false)

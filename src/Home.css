@@ -86,11 +86,6 @@ header {
   padding-left: 2rem;
 }
 
-@media (max-width: 640px) { 
-    .Container{
-        padding: 0rem;   
-    }
-}
 
 .h1 {
   --tw-text-opacity: 1;
@@ -118,13 +113,6 @@ header {
   }
 }
 
-@media (max-width: 640px) { 
-    .h1{
-        text-align: center;
-        justify-content:center;
-          
-    }
-}
 
 
 .text {
@@ -189,14 +177,7 @@ header {
   }
  
 }
-@media (max-width: 640px) {
-  .description {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    text-align: center;
-    justify-content:center;
-  }
-}
+
 .button_section{
     display: flex;
     margin-top: 0.75rem;
@@ -230,3 +211,19 @@ header {
     cursor: pointer;
 }
 
+@media (max-width: 640px) {
+  .description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    justify-content:center;
+    padding: 1rem;
+  }
+  .h1{
+    text-align: center;
+    justify-content:center;
+  }
+  .Container{
+    padding: 0rem;   
+  }
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Roboto+Serif:wght@700&display=swap');
+
 .tesseractScan {
     margin-top: 6rem;
     margin-bottom: 5rem;
@@ -31,10 +33,9 @@
 .textRight > p {
     margin-top: 240px;
     padding: 3rem;
-    font-size: 28px;
-    font-family: 'Caveat', cursive;
+    font-size: 25px;
     font-weight: 500;
-    
+    font-family: 'Nunito', sans-serif;
 }
 
 .tesseractScan > button {
