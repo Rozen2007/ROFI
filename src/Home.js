@@ -29,7 +29,7 @@ export default function Home() {
             </div>
           </h1>
           <p className="description">
-            Hate writing assigments? Here we are up with Rofi to make your work easier.
+            Hate writing assignments? Here we are up with Rofi to make your work easier.
           </p>
           <div className="button_section">
               <a>
