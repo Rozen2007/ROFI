@@ -12,7 +12,6 @@
     "caniuse-lite": "^1.0.30001312",
     "dom-to-image": "^2.6.0",
     "elliptic": "^6.5.3",
-    "jspdf": "^2.1.1",
     "react": "^16.13.1",
     "react-color": "2.18.1",
     "react-copy-to-clipboard": "^5.0.2",
