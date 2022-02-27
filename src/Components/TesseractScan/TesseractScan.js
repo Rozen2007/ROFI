@@ -90,12 +90,12 @@ function TesseractScan() {
 
     return (
         <div className="tesseractScan">
-          <div className="textInfo">
           <Fade none>
+          <div className="textInfo">
+          
             <div className="textLeft">
               <img src={convert} alt="" />
             </div>
-            </Fade>
         
             <div className="textRight">
               <p>
@@ -164,6 +164,7 @@ function TesseractScan() {
                 Copied to Clipboard
                 </Alert>
             </Snackbar>
+            </Fade>
             
         </div>
     )
