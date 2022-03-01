@@ -46,7 +46,7 @@
   },
   "description": "A software which can convert your text into your handwriting.",
   "main": "index.js",
-  "repository": "https://github.com/Rozen2007/ROFI",
+  "repository": "https://github.com/Rozen2007/ROFIROFI",
   "author": "Rozen2007 <deedirozen@gmail.com>",
   "license": "MIT"
 }

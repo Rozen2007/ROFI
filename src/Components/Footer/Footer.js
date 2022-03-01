@@ -14,7 +14,7 @@ function Footer() {
                 <p>
                     <b>Rofi</b> is a project made with React JS 
                     For any suggestions or bug reports, visit 
-                    <a href='https://github.com/Rozen2007/' target="_blank" rel="noopener noreferrer">
+                    <a href='https://github.com/Rozen2007/ROFI' target="_blank" rel="noopener noreferrer">
                         <Tooltip title="Visit Github Repo" placement="bottom" TransitionComponent={Zoom}>
                             <GitHubIcon />
                         </Tooltip> 

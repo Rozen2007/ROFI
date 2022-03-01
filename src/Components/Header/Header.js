@@ -19,7 +19,7 @@ function Header() {
       </div>
       <div className="headerRight">
         <a
-          href="https://github.com/Rozen2007/"
+          href="https://github.com/Rozen2007/ROFI"
           target="_blank"
           rel="noopener noreferrer"
         >

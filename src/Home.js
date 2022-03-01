@@ -14,7 +14,7 @@ export default function Home() {
           </a>
           <a
             className="Icon"
-            href="https://github.com/Rozen2007/"
+            href="https://github.com/Rozen2007/ROFI"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -92,7 +92,7 @@ function Usage() {
           </Typography>
         </DialogContent>
         <DialogActions>
-          <Button className="button" autoFocus href="https://github.com/Rozen2007/" color="primary" 
+          <Button className="button" autoFocus href="https://github.com/Rozen2007/ROFI" color="primary" 
             target="_blank" rel="noopener noreferrer"
             variant="contained" startIcon={<GitHubIcon />}>
             Visit Repo
